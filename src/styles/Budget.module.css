@@ -1,0 +1,119 @@
+.budgetContainer {
+    display: flex;
+    flex-direction: column;
+    
+    width: 95vw;
+    margin: 18rem 0 1rem 0;
+    border: 2px solid black;
+    box-shadow:
+    0px 0px 0.7px rgba(0, 0, 0, 0.4),
+    0px 0px 1.6px rgba(0, 0, 0, 0.3),
+    0px 0px 2px rgba(0, 0, 0, 0.23),
+    0px 0px 2.1px rgba(0, 0, 0, 0.14),
+    0px 0px 3.9px rgba(0, 0, 0, 0.1),
+    0px 0px 5.3px rgba(0, 0, 0, 0.16),
+    0px 0px 8.8px rgba(0, 0, 0, 0.7),
+    0px 0px 7.2px rgba(0, 0, 0, 0.29),
+    0px 0px 16.4px rgba(0, 0, 0, 0.9),
+    0px 0px 27px rgba(0, 0, 0, .3)
+  ;
+    
+    border-radius: 8px;
+}
+
+.counterBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 95vw;
+    
+    margin-bottom: 2rem;
+}
+
+.counters {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25vw;
+    height: 80%;
+    
+    border-radius: 1rem;
+  
+    font-size: 2rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+ button {
+    width: 5rem;
+    height: 3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+
+    border-radius: .4rem;
+      
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.more {
+    font-size: 5rem;
+}
+
+.calculate {
+    width: 15rem;
+    height: 8rem;
+      
+    align-self: center;
+    font-size: 2rem;
+}
+
+@media screen  and (max-width: 767px) {
+    .budgetContainer {
+        flex-direction: column;
+        width: 86vw;
+        margin: 5rem auto 1rem auto;
+    }
+
+
+    .counterBody {
+         height: 70vh;
+         width: 84vw;
+    }
+
+   .counters {
+    flex-direction: column;
+   }
+
+   .counter p {
+    width: 35vw;
+    align-self: center;
+    text-align: center;
+    margin-top: 1rem; 
+   }
+
+   .calculate {
+    margin: 1rem auto;
+   }
+   
+
+
+}

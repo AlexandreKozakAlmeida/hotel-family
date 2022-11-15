@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    width: 98.7vw;
+    height: 20rem;
+    border: .1rem solid black;
+   
+    margin: 8rem 0 0 0;
+    padding: 3rem;
+
+    background-color: var(--purple);
+    color: var(--yellow);
+    font-weight: 700;
+}
+
+hr {
+    width: 10rem;
+    border: 1px solid black;
+}
+
+.footer .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+   
+}
+
+.footer ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}

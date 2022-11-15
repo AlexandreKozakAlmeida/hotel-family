@@ -1,0 +1,53 @@
+.roomsContainerInverted,
+.roomsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 3rem;
+    margin: 8rem auto 0 auto;
+}
+
+.roomsContainerInverted {
+    flex-direction: row-reverse;
+}
+
+.roomsContainerInverted .roomsText,
+.roomsContainer .roomsText {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+img {
+    width: 50vw;
+}
+
+.roomsContainerInverted .roomsText h3,
+.roomsContainer .roomsText h3  {
+    align-self: center;
+}
+
+.roomsContainerInverted .roomsText p,
+.roomsContainer .roomsText p  {
+  word-break: normal;
+    width: 100%;
+    font-size: 1.8rem;
+    align-self: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .roomsContainerInverted,
+    .roomsContainer {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .roomsContainerInverted img,
+    .roomsContainer img {
+        width: 100vw;
+    }
+}
+

@@ -1,0 +1,40 @@
+.aboutUsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 1rem;
+    padding: 2rem;
+    gap: 2rem;
+    height: 92vh;
+}
+
+.aboutUsContainer img {
+    height: auto;
+    width: 45vw;
+
+    align-self: center;
+    justify-self: center;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 700;
+    color: #7c7475;
+}
+
+@media screen and (max-width: 767px) {
+    .aboutUsContainer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .aboutUsContainer img {
+        width: 100vw;
+    }
+}
