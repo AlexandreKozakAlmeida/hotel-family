@@ -8,7 +8,7 @@ export function Nav({active, activateMenu, closeMenu}) {
         <div id='nav' className={ active ? styles.navActive : styles.nav }>
             <nav className={ styles.navegation }>
                     <p className={ styles.logo }>
-                       <Link to='/'>Hotel</Link>
+                       <Link to='/hotel-family'>Hotel</Link>
                     </p>
                 <ul>
                    <button className={styles.closeMenuMobile} onClick={closeMenu}  >X</button>

@@ -29,7 +29,7 @@ function App() {
         closeMenu={closeMenuMobile}
        />
          <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/hotel-family' element={<Home />} />
            <Route path='/about' element={<About />}/>
            <Route path='/services' element={<Services />}/>
            <Route path='/price' element={<Prices />}/>
